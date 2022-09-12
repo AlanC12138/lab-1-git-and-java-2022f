@@ -45,8 +45,9 @@ public class IntroLab {
      * An example method that calls on printLabMessage.
      */
 
-    public static void String yuanzhu9() {
-    	this.printLabMessage("what's up", "sunny", "does not", "hope we get along!");
+    public static String yuanzhu9() {
+    	String msg = printLabMessage("what's up", "sunny", false, "hope we get along!");
+        return msg;
     }
 
     public static String exampleStudent() {
